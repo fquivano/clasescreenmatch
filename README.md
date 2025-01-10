@@ -159,7 +159,32 @@ public class ScreenMatchApplication {
 
 
 
+<h1>ACTUALIZACION DEL CODIGO</h1>
+La actualizacion al dia 10 de Enero se genera de la siguiente manera:
+Esta es la pagina principal
+
+
+![image](https://github.com/user-attachments/assets/85a05f9d-ef4b-4258-902a-01c4725776df)
+
+
+podemos seleccionar en categoria:
+
+![image](https://github.com/user-attachments/assets/6a794930-811c-4238-8c33-0d7d29f35dd4)
+
+Click en la serie seleccionada y elegir que temparada desea ver:
+
+![image](https://github.com/user-attachments/assets/25c7027d-d0d8-451a-9fd1-1f801cc83c9f)
+
+
+
+
+
 
 Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes ideas para mejorar la aplicación, no dudes en abrir un issue o un pull request.
+
+
+
+
+
