@@ -17,19 +17,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootApplication
-public class ClasescreenmatchApplication implements CommandLineRunner {
+public class ClasescreenmatchApplication {
 
-	@Autowired
-	private SerieRepository repository;
 
 	public static void main(String[] args) {
 		SpringApplication.run(ClasescreenmatchApplication.class, args);
 	}
 
-	@Override
-	public void run(String... args) throws Exception {
-	Principal principal=new Principal(repository);
-	principal.muestraElMenu();
-
 	}
-}

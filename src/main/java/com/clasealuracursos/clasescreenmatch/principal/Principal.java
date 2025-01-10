@@ -75,7 +75,8 @@ public class Principal {
                 case 9:
                     buscarTop5Episodios();
                     break;
-                case 0:
+
+                    case 0:
                     System.out.println("Cerrando la aplicacion...");
                     break;
                 default:
@@ -183,7 +184,7 @@ public class Principal {
         filtroSeries.forEach(s -> System.out.println(s.getTitulo() + " - evaluacion: " + s.getEvaluacion()));
     }
 
-    private void buscarEpisodiosPorTitulo() {
+  private void buscarEpisodiosPorTitulo() {
         System.out.println("Escribe el nombre del episodio que deseas buscar");
         var nombreEpisodio=teclado.nextLine();
         List<Episodio>episodiosEncontrados=repositorio.episodiosPorNombre(nombreEpisodio);
@@ -194,7 +195,7 @@ public class Principal {
     }
 
 
-    private void buscarTop5Episodios(){
+   private void buscarTop5Episodios(){
         buscarSeriesPorTitulo();
         if(serieBuscada.isPresent()){
             Serie serie =serieBuscada.get();
